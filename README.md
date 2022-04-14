@@ -38,14 +38,14 @@
 
  4. Запушить структуру багрепорта на внешний репозиторий
  
- *git add bug_report.txt
- *git commit -m "add bug_report_1.txt"
- *git push
+ * git add bug_report.txt
+ * git commit -m "add bug_report_1.txt"
+ * git push
 
  5. Вмержить ветку Bag Reports в Main
  
- *git checkout main
- *git merge Bug_Reports
+ * git checkout main
+ * git merge Bug_Reports
 
  6. Запушить main на внешний репозиторий.
  
