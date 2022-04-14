@@ -49,15 +49,15 @@
 
  6. Запушить main на внешний репозиторий.
  
- *git add .
- *git commit -m "merge 1 branch"
- *git push
+ * git add .
+ * git commit -m "merge 1 branch"
+ * git push
 
  7. В ветке CheckLists набросать структуру чек листа.
  
- *git checkout CheckLists
+ * git checkout CheckLists
  
- *cat > check_list.txt
+ * cat > check_list.txt
   ID
   Title
   Precondition
@@ -70,18 +70,18 @@
  
  8. Запушить структуру на внешний репозиторий
  
- *git add check_list.txt
- *git commit -m "add  check_list_1.txt"
- *git push
+ * git add check_list.txt
+ * git commit -m "add  check_list_1.txt"
+ * git push
  
  9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
- *Открываем внешний репозиторий и нажимаем кнопку Compare & pull request
- *Оставляем комментарий в графе Write : add a lot of lines
- *Нажимаем кнопку Create pull request
- *Нажимаем кнопку Merge pull request
- *Нажимаем кнопку Confirm merge
+ * Открываем внешний репозиторий и нажимаем кнопку Compare & pull request
+ * Оставляем комментарий в графе Write : add a lot of lines
+ * Нажимаем кнопку Create pull request
+ * Нажимаем кнопку Merge pull request
+ * Нажимаем кнопку Confirm merge
  
  10. Синхронизировать Внешнюю и Локальную ветки Main
- *Переходим на локальный репозиторий
- *git checkout main
- *git pull
+ * Переходим на локальный репозиторий
+ * git checkout main
+ * git pull
